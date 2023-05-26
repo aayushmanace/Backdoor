@@ -28,7 +28,11 @@ visdom -port 8097
 
 
 
-#### For Image classification:
-#### ssh dl@172.30.1.163
-#### cd /data4/dl/DL316_22_23_2/grp03/Mohit/backdoor_federated_learning/
-#### python training.py --params utils/img_class_continue.yaml
+## For Image classification:
+````
+  
+ssh dl@172.30.1.163
+cd /data4/dl/DL316_22_23_2/grp03/Mohit/backdoor_federated_learning/
+python training.py --params utils/img_class_continue.yaml
+  
+````
